@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30E18BC01A1BFBC600C53ECB /* Graveyard_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E18BBF1A1BFBC600C53ECB /* Graveyard_Swift.h */; };
-		30E18BC21A1BFBC600C53ECB /* Graveyard_Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E18BC11A1BFBC600C53ECB /* Graveyard_Swift.m */; };
 		30E18BC81A1BFBC600C53ECB /* libGraveyard Swift.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */; };
+		30E18BD81A1BFDA200C53ECB /* Graveyard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E18BD71A1BFDA200C53ECB /* Graveyard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +23,10 @@
 
 /* Begin PBXFileReference section */
 		30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libGraveyard Swift.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30E18BBF1A1BFBC600C53ECB /* Graveyard_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graveyard_Swift.h; sourceTree = "<group>"; };
-		30E18BC11A1BFBC600C53ECB /* Graveyard_Swift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graveyard_Swift.m; sourceTree = "<group>"; };
 		30E18BC71A1BFBC600C53ECB /* Graveyard SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Graveyard SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E18BCD1A1BFBC600C53ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E18BD61A1BFDA200C53ECB /* Graveyard Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graveyard Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		30E18BD71A1BFDA200C53ECB /* Graveyard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graveyard.swift; path = ../src/main/swift/ibittech/graveyard/Graveyard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +54,7 @@
 				30E18BBE1A1BFBC600C53ECB /* Graveyard Swift */,
 				30E18BCB1A1BFBC600C53ECB /* Graveyard SwiftTests */,
 				30E18BBD1A1BFBC600C53ECB /* Products */,
+				30E18BD61A1BFDA200C53ECB /* Graveyard Swift-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,8 +70,7 @@
 		30E18BBE1A1BFBC600C53ECB /* Graveyard Swift */ = {
 			isa = PBXGroup;
 			children = (
-				30E18BBF1A1BFBC600C53ECB /* Graveyard_Swift.h */,
-				30E18BC11A1BFBC600C53ECB /* Graveyard_Swift.m */,
+				30E18BD71A1BFDA200C53ECB /* Graveyard.swift */,
 			);
 			path = "Graveyard Swift";
 			sourceTree = "<group>";
@@ -99,7 +98,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E18BC01A1BFBC600C53ECB /* Graveyard_Swift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E18BC21A1BFBC600C53ECB /* Graveyard_Swift.m in Sources */,
+				30E18BD81A1BFDA200C53ECB /* Graveyard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,20 +288,27 @@
 		30E18BD11A1BFBC600C53ECB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Graveyard Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		30E18BD21A1BFBC600C53ECB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Graveyard Swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
