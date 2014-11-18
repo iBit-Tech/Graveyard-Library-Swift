@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E18BC01A1BFBC600C53ECB /* Graveyard_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E18BBF1A1BFBC600C53ECB /* Graveyard_Swift.h */; };
+		30E18BC21A1BFBC600C53ECB /* Graveyard_Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E18BC11A1BFBC600C53ECB /* Graveyard_Swift.m */; };
+		30E18BC81A1BFBC600C53ECB /* libGraveyard Swift.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E18BC91A1BFBC600C53ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E18BB41A1BFBC600C53ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E18BBB1A1BFBC600C53ECB;
+			remoteInfo = "Graveyard Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libGraveyard Swift.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E18BBF1A1BFBC600C53ECB /* Graveyard_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graveyard_Swift.h; sourceTree = "<group>"; };
+		30E18BC11A1BFBC600C53ECB /* Graveyard_Swift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graveyard_Swift.m; sourceTree = "<group>"; };
+		30E18BC71A1BFBC600C53ECB /* Graveyard SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Graveyard SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E18BCD1A1BFBC600C53ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E18BB91A1BFBC600C53ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E18BC41A1BFBC600C53ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E18BC81A1BFBC600C53ECB /* libGraveyard Swift.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E18BB31A1BFBC600C53ECB = {
+			isa = PBXGroup;
+			children = (
+				30E18BBE1A1BFBC600C53ECB /* Graveyard Swift */,
+				30E18BCB1A1BFBC600C53ECB /* Graveyard SwiftTests */,
+				30E18BBD1A1BFBC600C53ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E18BBD1A1BFBC600C53ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */,
+				30E18BC71A1BFBC600C53ECB /* Graveyard SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E18BBE1A1BFBC600C53ECB /* Graveyard Swift */ = {
+			isa = PBXGroup;
+			children = (
+				30E18BBF1A1BFBC600C53ECB /* Graveyard_Swift.h */,
+				30E18BC11A1BFBC600C53ECB /* Graveyard_Swift.m */,
+			);
+			path = "Graveyard Swift";
+			sourceTree = "<group>";
+		};
+		30E18BCB1A1BFBC600C53ECB /* Graveyard SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E18BCC1A1BFBC600C53ECB /* Supporting Files */,
+			);
+			path = "Graveyard SwiftTests";
+			sourceTree = "<group>";
+		};
+		30E18BCC1A1BFBC600C53ECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E18BCD1A1BFBC600C53ECB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30E18BBA1A1BFBC600C53ECB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E18BC01A1BFBC600C53ECB /* Graveyard_Swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30E18BBB1A1BFBC600C53ECB /* Graveyard Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E18BD01A1BFBC600C53ECB /* Build configuration list for PBXNativeTarget "Graveyard Swift" */;
+			buildPhases = (
+				30E18BB81A1BFBC600C53ECB /* Sources */,
+				30E18BB91A1BFBC600C53ECB /* Frameworks */,
+				30E18BBA1A1BFBC600C53ECB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Graveyard Swift";
+			productName = "Graveyard Swift";
+			productReference = 30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		30E18BC61A1BFBC600C53ECB /* Graveyard SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E18BD31A1BFBC600C53ECB /* Build configuration list for PBXNativeTarget "Graveyard SwiftTests" */;
+			buildPhases = (
+				30E18BC31A1BFBC600C53ECB /* Sources */,
+				30E18BC41A1BFBC600C53ECB /* Frameworks */,
+				30E18BC51A1BFBC600C53ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E18BCA1A1BFBC600C53ECB /* PBXTargetDependency */,
+			);
+			name = "Graveyard SwiftTests";
+			productName = "Graveyard SwiftTests";
+			productReference = 30E18BC71A1BFBC600C53ECB /* Graveyard SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E18BB41A1BFBC600C53ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "ibit-tech";
+				TargetAttributes = {
+					30E18BBB1A1BFBC600C53ECB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					30E18BC61A1BFBC600C53ECB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 30E18BB71A1BFBC600C53ECB /* Build configuration list for PBXProject "Graveyard Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30E18BB31A1BFBC600C53ECB;
+			productRefGroup = 30E18BBD1A1BFBC600C53ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E18BBB1A1BFBC600C53ECB /* Graveyard Swift */,
+				30E18BC61A1BFBC600C53ECB /* Graveyard SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E18BC51A1BFBC600C53ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E18BB81A1BFBC600C53ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E18BC21A1BFBC600C53ECB /* Graveyard_Swift.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E18BC31A1BFBC600C53ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E18BCA1A1BFBC600C53ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E18BBB1A1BFBC600C53ECB /* Graveyard Swift */;
+			targetProxy = 30E18BC91A1BFBC600C53ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E18BCE1A1BFBC600C53ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30E18BCF1A1BFBC600C53ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30E18BD11A1BFBC600C53ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30E18BD21A1BFBC600C53ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30E18BD41A1BFBC600C53ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Graveyard SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30E18BD51A1BFBC600C53ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Graveyard SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E18BB71A1BFBC600C53ECB /* Build configuration list for PBXProject "Graveyard Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E18BCE1A1BFBC600C53ECB /* Debug */,
+				30E18BCF1A1BFBC600C53ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E18BD01A1BFBC600C53ECB /* Build configuration list for PBXNativeTarget "Graveyard Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E18BD11A1BFBC600C53ECB /* Debug */,
+				30E18BD21A1BFBC600C53ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30E18BD31A1BFBC600C53ECB /* Build configuration list for PBXNativeTarget "Graveyard SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E18BD41A1BFBC600C53ECB /* Debug */,
+				30E18BD51A1BFBC600C53ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E18BB41A1BFBC600C53ECB /* Project object */;
+}
