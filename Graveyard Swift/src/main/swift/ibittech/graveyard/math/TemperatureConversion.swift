@@ -8,8 +8,14 @@
 
 import Foundation
 public class TemperatureConversion{
-    //Converts fahrenheit to celsius
+    
+    ///Converts fahrenheit to celsius
     func fahrenheitToCelsius(fah: Double) -> Double{
         return (fah - 32) * (5/9)
+    }
+    
+    ///Converts fahrenheit to kelvin
+    func fahrenheitToKelvin(fah: Double) -> Double{
+        return (fah + 459.67) * (5/9)
     }
 }
