@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		30E18BC81A1BFBC600C53ECB /* libGraveyard Swift.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */; };
 		30E18BD81A1BFDA200C53ECB /* Graveyard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E18BD71A1BFDA200C53ECB /* Graveyard.swift */; };
+		30E18BDF1A1C2C7000C53ECB /* TemperatureConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E18BDE1A1C2C7000C53ECB /* TemperatureConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,7 @@
 		30E18BD61A1BFDA200C53ECB /* Graveyard Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graveyard Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		30E18BD71A1BFDA200C53ECB /* Graveyard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graveyard.swift; path = ../src/main/swift/ibittech/graveyard/Graveyard.swift; sourceTree = "<group>"; };
 		30E18BD91A1C293E00C53ECB /* Graveyard SwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graveyard SwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		30E18BDE1A1C2C7000C53ECB /* TemperatureConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemperatureConversion.swift; path = src/main/swift/ibittech/graveyard/math/TemperatureConversion.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				30E18BD71A1BFDA200C53ECB /* Graveyard.swift */,
+				30E18BDE1A1C2C7000C53ECB /* TemperatureConversion.swift */,
 			);
 			path = "Graveyard Swift";
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E18BDF1A1C2C7000C53ECB /* TemperatureConversion.swift in Sources */,
 				30E18BD81A1BFDA200C53ECB /* Graveyard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
