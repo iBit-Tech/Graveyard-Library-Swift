@@ -18,4 +18,24 @@ public class TemperatureConversion{
     func fahrenheitToKelvin(fah: Double) -> Double{
         return (fah + 459.67) * (5/9)
     }
+    
+    ///Converts celsius to fahrenheit
+    func celsiusToFahrenheit(cel: Double) -> Double{
+        return (cel * (9/5)) + 32
+    }
+    
+    ///Converts celsius to kelvin
+    func celsiusToKelvin(cel: Double) -> Double{
+        return cel + 273.15
+    }
+    
+    ///Converts kelvin to fahrenheit
+    func kelvinToFahrenheit(kelv: Double) -> Double{
+        return (kelv * (9/5)) - 459.67
+    }
+    
+    ///Converts kelvin to fahrenheit
+    func kelvinToCelsius(kelv: Double) -> Double{
+        return kelv - 273.15
+    }
 }
