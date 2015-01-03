@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		304F50351A58AD080064BD67 /* Graveyard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304F50341A58AD080064BD67 /* Graveyard.swift */; };
 		30E18BC81A1BFBC600C53ECB /* libGraveyard Swift.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */; };
-		30E18BD81A1BFDA200C53ECB /* Graveyard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E18BD71A1BFDA200C53ECB /* Graveyard.swift */; };
 		30E18BDF1A1C2C7000C53ECB /* TemperatureConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E18BDE1A1C2C7000C53ECB /* TemperatureConversion.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,13 +23,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		304F50341A58AD080064BD67 /* Graveyard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graveyard.swift; path = src/main/swift/ibittech/graveyard/Graveyard.swift; sourceTree = SOURCE_ROOT; };
 		30E18BBC1A1BFBC600C53ECB /* libGraveyard Swift.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libGraveyard Swift.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E18BC71A1BFBC600C53ECB /* Graveyard SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Graveyard SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E18BCD1A1BFBC600C53ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30E18BD61A1BFDA200C53ECB /* Graveyard Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graveyard Swift-Bridging-Header.h"; sourceTree = "<group>"; };
-		30E18BD71A1BFDA200C53ECB /* Graveyard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graveyard.swift; path = ../src/main/swift/ibittech/graveyard/Graveyard.swift; sourceTree = "<group>"; };
 		30E18BD91A1C293E00C53ECB /* Graveyard SwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graveyard SwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		30E18BDE1A1C2C7000C53ECB /* TemperatureConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemperatureConversion.swift; path = src/main/swift/ibittech/graveyard/math/TemperatureConversion.swift; sourceTree = SOURCE_ROOT; };
+		30E18BDE1A1C2C7000C53ECB /* TemperatureConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemperatureConversion.swift; path = src/main/swift/ibittech/graveyard/math/TemperatureConversion.swift; sourceTree = SOURCE_ROOT; usesTabs = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		30E18BBE1A1BFBC600C53ECB /* Graveyard Swift */ = {
 			isa = PBXGroup;
 			children = (
-				30E18BD71A1BFDA200C53ECB /* Graveyard.swift */,
+				304F50341A58AD080064BD67 /* Graveyard.swift */,
 				30E18BDE1A1C2C7000C53ECB /* TemperatureConversion.swift */,
 			);
 			path = "Graveyard Swift";
@@ -195,7 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30E18BDF1A1C2C7000C53ECB /* TemperatureConversion.swift in Sources */,
-				30E18BD81A1BFDA200C53ECB /* Graveyard.swift in Sources */,
+				304F50351A58AD080064BD67 /* Graveyard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +374,7 @@
 				30E18BD21A1BFBC600C53ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30E18BD31A1BFBC600C53ECB /* Build configuration list for PBXNativeTarget "Graveyard SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +383,7 @@
 				30E18BD51A1BFBC600C53ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,12 +5,12 @@
 //  Created by xbony2 on 11/18/14.
 //  Copyright (c) 2014 ibit-tech. All rights reserved.
 //
-public class Graveyard{
+public class Graveyard {
     ///Graveyard's name
-    let name = "Graveyard"
+    let NAME = "Graveyard"
 
     ///Graveyard's extended name/description
-    let fancyName = "Graveyard, the multipurpose swift library"
+    let FANCY_NAME = "Graveyard, the multipurpose swift library"
 
     /*
     * Graveyard's current version.
@@ -28,5 +28,5 @@ public class Graveyard{
     * and basically rewritten large parts of the code. After version 1.9.Xx, 2.0.0a will
     * be next. Note you may have to rewrite parts of your code if you rely on this library.
     */
-    let version = "v1.0.0a"
+    let VERSION = "v1.0.0a"
 }
